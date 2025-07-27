@@ -1,0 +1,11 @@
+.select{
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+.select option{
+    padding: 0.5rem;
+    cursor: pointer;
+}
