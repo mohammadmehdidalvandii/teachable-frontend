@@ -1,0 +1,88 @@
+.courseCart{
+    display: block;
+    width: 100%;
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.4s linear;
+}
+:global(.dark) .courseCart {
+    background-color: var(--primary-color) !important;
+    color: var(--text-primary-dark) !important;
+}
+.courseCart .courseCart_img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+.courseCart .courseCart_content{
+    display: block; 
+    padding: 0.2rem 1rem;
+}
+.courseCart .course_title{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+       transition: all 0.4s linear;
+}
+.courseCart:hover .course_title{
+    color: var(--success-color);
+}
+.courseCart .course_paraph{
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: -1rem;
+}
+.courseCart_teacherRete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.courseCart_teacher{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: var(--text-secondary);
+}
+
+.courseCart_rate{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: var(--warning-color);
+}
+.courseCart_priceStudent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-block: 1rem ;
+    border-top: 1px solid var(--text-primary);
+}
+:global(.dark).courseCart_priceStudent{
+     border-top: 1px solid var(--light-gray);
+}
+.courseCart_student{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.courseCart_student .icon{
+    font-size: 1.1rem;
+}
+.courseCart_price{
+    display: block;
+    font-family: var(--font-danaBold);
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: var(--success-color);
+}
