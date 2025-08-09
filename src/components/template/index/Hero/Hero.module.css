@@ -19,6 +19,7 @@
     display: block;
     text-align: center;
     margin-top: 11rem;
+    color: var(--text-primary-dark);
 }
 .hero_content .hero_title{
     display: block;
