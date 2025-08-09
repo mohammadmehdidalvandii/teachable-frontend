@@ -99,7 +99,28 @@ body{
   background-color: rgba(0,0,0 ,0.6);
   backdrop-filter: blur(2px);
 }
-
+/* link_hero */
+.link_hero{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem;
+  width: 100%;
+  text-decoration: none;
+  font-family: var(--font-danaBold);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  transition: all 0.4s linear;
+}
+.link_hero:hover{
+    color: var(--success-color);
+}
+.link_hero .icon{
+  font-size: 1.3rem;
+}
+.dark .link_hero{
+  color: var(--white);
+}
 @media (max-width : 1360px) {
 }
 @media (max-width : 1260px) {
