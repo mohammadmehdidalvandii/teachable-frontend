@@ -1,0 +1,14 @@
+.title_wrapper{
+    display: block;
+    width: 100%;
+}
+.title_wrapper .title{
+    font-family: var(--font-danaBlack);
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    color: var(--success-color);
+}
+.title_wrapper .paraph{
+    display: block;
+    margin-top:-3rem;
+}
