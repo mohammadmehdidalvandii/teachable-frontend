@@ -33,7 +33,7 @@ function PopularCourses() {
                         prevEl: `.navButtonPrev`,
                      }}
                       modules={[Navigation]}
-                                    slidesPerView={3}
+                                    slidesPerView={4}
                                     spaceBetween={20}
                                   breakpoints={{
                                     270: {
@@ -57,7 +57,7 @@ function PopularCourses() {
                                       spaceBetween: 20,
                                     },
                                     1024: {
-                                      slidesPerView: 3,
+                                      slidesPerView: 4,
                                       spaceBetween: 20,
                                     },
                                   }}
