@@ -1,0 +1,20 @@
+.blog{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.blog_wrapper{
+    display: block;
+    width: 100%;
+}
+.blog_titleLink{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
