@@ -1,0 +1,16 @@
+.newCourses{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.newCourses_wrapper{
+    display: block;
+}
+.newCourses_titleButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newCourses_swiper{
+    margin-top: 2rem;
+}
