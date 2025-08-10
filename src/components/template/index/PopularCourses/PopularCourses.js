@@ -57,7 +57,7 @@ function PopularCourses() {
                                       spaceBetween: 20,
                                     },
                                     1024: {
-                                      slidesPerView: 4,
+                                      slidesPerView: 4  ,
                                       spaceBetween: 20,
                                     },
                                   }}
