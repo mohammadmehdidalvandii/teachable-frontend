@@ -121,6 +121,34 @@ body{
 .dark .link_hero{
   color: var(--white);
 }
+
+/* buttons style swiper customs */
+.buttons_swiper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.buttons_swiper .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--success-color);
+  border-radius: 50%;
+  font-size: 2.5rem;
+  background-color: unset;
+  color: var(--success-color);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+.buttons_swiper .btn:hover{
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+
 @media (max-width : 1360px) {
 }
 @media (max-width : 1260px) {
