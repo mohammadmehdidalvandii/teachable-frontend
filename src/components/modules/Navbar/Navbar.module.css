@@ -1,8 +1,11 @@
 .navbar{
     display: block;
     width: 100%;
+    background-color: var(--light-gray);
+}
+:global(.dark) .navbar{
     background-color: var(--primary-color);
-    color:var(--white)
+      color:var(--white)
 }
     .navbar_wrapper{
     display: flex;
@@ -15,10 +18,13 @@
     font-family: var(--font-sansExtraBold);
     font-size: 2rem;
     font-weight: bolder;
-    color: var(--white);
+    color: var(--text-primary);
     text-transform: uppercase;
     text-decoration: none;  
     transition: all 0.4s ease-in;
+}
+:global(.dark) .navbar_logo{
+    color: var(--white);
 }
 .navbar_logo:hover{
     color: var(--secondary-color);
@@ -34,9 +40,12 @@
 .navbar_items .navbar_link{
     display: block;
     text-decoration: none;
-    color: var(--white);
+    color: var(--text-primary);
     font-size: 1.2rem;
     transition: all 0.4s ease-in;
+}
+:global(.dark) .navbar_link{
+    color: var(--white);
 }
 .navbar_link:hover{
     color: var(--secondary-color);
