@@ -21,7 +21,7 @@ function Navbar() {
                 <Link href='/' className={style.navbar_logo}>teachable</Link>
                 <ul className={style.navbar_items}>
                     <li><Link href='/' className={style.navbar_link}>خانه</Link></li>
-                    <li><Link href='/' className={style.navbar_link}>دوره ها</Link></li>
+                    <li><Link href='/Courses' className={style.navbar_link}>دوره ها</Link></li>
                     <li><Link href='/' className={style.navbar_link}>تماس با ما</Link></li>
                     <li><Link href='/' className={style.navbar_link}>درباره ما</Link></li>
                 </ul>
@@ -53,7 +53,7 @@ function Navbar() {
                   <ul className={style.navbarRes_items}>
                     <li><Link href='/' className={style.navbarRes_link}>ثبت نام / ورود</Link></li>
                     <li><Link href='/' className={style.navbarRes_link}>خانه</Link></li>
-                    <li><Link href='/' className={style.navbarRes_link}>دوره ها</Link></li>
+                    <li><Link href='/Courses' className={style.navbarRes_link}>دوره ها</Link></li>
                     <li><Link href='/' className={style.navbarRes_link}>تماس با ما</Link></li>
                     <li><Link href='/' className={style.navbarRes_link}>درباره ما</Link></li>
                 </ul>
