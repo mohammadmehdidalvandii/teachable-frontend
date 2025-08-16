@@ -115,6 +115,9 @@ body{
 .link_hero:hover{
     color: var(--success-color);
 }
+.dark .link_hero:hover{
+    color: var(--success-color);
+}
 .link_hero .icon{
   font-size: 1.3rem;
 }
