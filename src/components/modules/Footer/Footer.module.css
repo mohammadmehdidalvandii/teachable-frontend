@@ -1,0 +1,97 @@
+.footer{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+    padding-block: 4rem;
+    background-color: var(--light-gray);
+}
+:global(.dark) .footer{
+    background-color: var(--primary-color);
+}
+.footer_wrapper{
+    display: block;
+    width: 100%;
+}
+.footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--dark-gray);
+}
+:global(.dark) .footer_top{
+    border-bottom: 1px solid var(--light-gray);
+}
+.footer_top_link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-danaBlack);
+    font-size: 2.5rem;
+    color: var(--text-primary);
+}
+:global(.dark) .footer_top_link{
+    color: var(--white);
+}
+.footer_top_contact{
+    display: block;
+}
+.footer_contact_link{
+    display: block;
+     text-decoration: none;
+     font-size: 1.1rem;
+     font-weight: 700;
+     color: var(--text-primary);
+     transition: all 0.4s linear;
+}
+.footer_contact_link:hover{
+color: var(--success-color);
+}
+:global(.dark) .footer_contact_link{
+    color: var(--white);
+}
+:global(.dark) .footer_contact_link:hover{
+    color: var(--success-color);
+}
+.footer_main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.footer_main div{
+    margin-top: -1rem;
+}
+.footer_content{
+    display: block;
+}
+.footer_content_title{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.5rem;
+}
+.footer_content_paraph{
+    display: block;
+}
+.footer_title{
+    display: block;
+     font-family: var(--font-danaBlack);
+    font-size: 1.5rem;
+}
+.footer_items{
+    display: block;
+    list-style: none;
+}
+.footer_items li{
+    display: block;
+    margin-bottom: 1rem;
+}
+.footer_items .footer_link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+}
+:global(.dark) .footer_link{
+    color: var(--white)
+}

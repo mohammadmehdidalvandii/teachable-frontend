@@ -1,3 +1,4 @@
+import Footer from '@/components/modules/Footer/Footer'
 import Navbar from '@/components/modules/Navbar/Navbar'
 import Title from '@/components/modules/Title/Title'
 import Blog from '@/components/template/index/Blog/Blog'
@@ -25,7 +26,7 @@ function home() {
       <Blog/>
       <FreeCourses/>
       <Description/>
-      <br /><br /><br />   
+      <Footer/> 
     </>
   )
 }
