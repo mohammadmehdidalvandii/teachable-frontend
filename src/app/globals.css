@@ -40,6 +40,7 @@
   --text-primary: #333333; 
   --text-secondary: #7f8c8d;
   --success-color: #27ae60;
+  --success-100: #009c4b;
   --warning-color: #f39c12; 
   --light-gray: #ecf0f1;
   --white: #ffffff;
@@ -149,6 +150,27 @@ body{
 .buttons_swiper .btn:hover{
   background-color: var(--success-color);
   color: var(--white);
+}
+/* Style all buttons */
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: var(--font-danaBold);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.btn.primary{
+    background-color: var(--success-color);
+      color: var(--white);
+}
+.btn.primary:hover{
+    background-color: var(--success-100);
 }
 
 

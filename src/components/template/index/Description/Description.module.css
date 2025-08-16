@@ -1,0 +1,43 @@
+.description{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.description_wrapper{
+    display: block;
+}
+.description_title{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.7rem;
+}
+.description_paraph{
+    display: block;
+    font-size:1rem;
+    font-weight: 700;
+    color: var(--gray);
+    line-height: 1.7;
+}
+.description_content{
+    display: block;
+    margin-top: 1rem;
+}
+.description_content_title{
+        display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.5rem;
+}
+.description_content_paraph{
+    display: block;
+    font-size:1rem;
+    font-weight: 700;
+    color: var(--gray);
+    line-height: 1.7;
+}
+.description_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

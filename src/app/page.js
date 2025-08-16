@@ -1,6 +1,7 @@
 import Navbar from '@/components/modules/Navbar/Navbar'
 import Title from '@/components/modules/Title/Title'
 import Blog from '@/components/template/index/Blog/Blog'
+import Description from '@/components/template/index/Description/Description'
 import FreeCourses from '@/components/template/index/FreeCourses/FreeCourses'
 import HelpUs from '@/components/template/index/HelpUs/HelpUs'
 import Hero from '@/components/template/index/Hero/Hero'
@@ -23,6 +24,7 @@ function home() {
       <NewCourses/>
       <Blog/>
       <FreeCourses/>
+      <Description/>
       <br /><br /><br />   
     </>
   )
