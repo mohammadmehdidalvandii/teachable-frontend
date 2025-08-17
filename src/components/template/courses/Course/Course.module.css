@@ -1,0 +1,29 @@
+.course{
+    display: block;
+    width: 100%;
+    margin-block: 5rem;
+}
+.course_grid{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.course_grid_right{
+    flex-basis: 20%;
+    background-color: red;
+}
+.course_grid_left{
+    flex-basis:80% ;
+    background-color: gray;
+}
+
+@media (max-width : 992px) {
+    .course_grid{
+        flex-direction: column;
+        width: 100%;
+    }
+    .course_grid_right ,
+    .course_grid_left{
+        width: 100%;
+    }
+}
