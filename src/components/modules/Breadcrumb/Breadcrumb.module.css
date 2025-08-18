@@ -1,0 +1,28 @@
+.breadcrumb{
+    display: block;
+    width: 100%;
+    margin-block: 3rem;
+}
+.breadcrumb_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+    background-color: var(--light-gray);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+:global(.dark) .breadcrumb_wrapper{
+    background-color: var(--primary-color);
+}
+.breadcrumb_linkBack{
+    font-size: 2rem;
+    color: var(--text-primary);
+}
+:global(.dark) .breadcrumb_linkBack{
+    color: var(--white);
+}
+.breadcrumb_title{
+    display: block;
+    font-family: var(--font-danaBold);
+    font-size: 1rem;
+}
