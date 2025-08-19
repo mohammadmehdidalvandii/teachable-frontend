@@ -177,10 +177,30 @@ body{
 .box{
   background-color: var(--light-gray);
   padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 .dark .box{
   background-color: var(--primary-color);
 }
+
+/*  title courseDetails */
+.courseDetails_titleIcon{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.courseDetails_titleIcon.primary{
+  color: var(--warning-color);
+}
+.courseDetails_icon{
+    font-size: 2.5rem;
+}
+.courseDetails_title{
+    display: block;
+    font-family: var(--font-danaBold);
+    font-size: 1.2rem;
+} 
 
 
 @media (max-width : 1360px) {

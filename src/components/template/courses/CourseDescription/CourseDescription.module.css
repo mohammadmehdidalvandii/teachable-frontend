@@ -1,0 +1,23 @@
+.courseDescription{
+    display: block;
+    max-width: 100%;
+}
+.courseDescription_content{
+    display: block;
+    max-width: 100%;
+}
+.courseDescription_img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+.courseDescription_content h3{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.5rem;
+}
+.courseDescription_content p{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
