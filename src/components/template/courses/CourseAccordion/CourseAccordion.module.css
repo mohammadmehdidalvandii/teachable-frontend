@@ -1,0 +1,55 @@
+.accordion{
+    display: block;
+    max-width: 100%;
+    padding: 0.2rem 0.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+:global(.dark) .accordion{
+    background-color: var(--dark-gray);
+}
+.accordion_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+}
+.accordion_header_title{
+    display: block;
+    font-size: 1.1rem;
+}
+.accordion_lessonIcon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+}
+.accordion_lesson{
+    font-family: var(--font-danaBold);
+    font-size: 1.1rem;
+}
+.accordion_icon{
+    font-size: 1.5rem;
+}
+.accordion_content{
+display: block;
+}
+
+.accordion_content_link{
+    display: block;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.4s linear;
+    padding-block: 1rem;
+    border-bottom: 1px solid var(--text-primary);
+}
+.accordion_content_link:hover{
+    color: var(--success-color);
+}
+:global(.dark) .accordion_content_link{
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
+:global(.dark) .accordion_content_link:hover{
+    color: var(--success-color);
+}
