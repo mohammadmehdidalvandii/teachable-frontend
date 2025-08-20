@@ -1,0 +1,87 @@
+.courseComment{
+    display: block;
+    /* width: 100%; */
+}
+.courseComment_titleButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courseComment_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+.courseComment_addComment{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.courseComment_info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.courseComment_info span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--text-secondary);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.courseComment_info img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.courseComment_info_name{
+    display: block;
+    margin-bottom: -1rem;
+    font-family: var(--font-danaBold);
+    font-size: 1.2rem;
+}
+.courseComment_info_new{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+.courseComment_content{
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+}
+.courseComment_warning{
+    display: block;
+    background-color: var(--accent-color);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    color: var(--white);
+}
+.courseComment_addComment_text{
+    display: block;
+    width: 99%;
+    height: 7rem;
+    outline: none;
+    border: none;
+    padding: 0.4rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+:global(.dark) .courseComment_addComment_text{
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+:global(.dark) .courseComment_addComment_text::placeholder{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: var(--white);
+}
+.courseComment_addComment_btns{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: left;
+    gap: 1rem;
+}
