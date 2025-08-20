@@ -172,7 +172,13 @@ body{
 .btn.primary:hover{
     background-color: var(--success-100);
 }
-
+.btn.secondary{
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+.btn.secondary:hover{
+  background-color: var(--accent-dark);
+}
 /* box  */
 .box{
   background-color: var(--light-gray);
@@ -195,6 +201,9 @@ body{
 }
 .courseDetails_titleIcon.secondary{
   color: var(--secondary-color);
+}
+.courseDetails_titleIcon.success{
+  color: var(--accent-color);
 }
 .courseDetails_icon{
     font-size: 2.5rem;

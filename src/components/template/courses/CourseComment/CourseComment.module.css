@@ -85,3 +85,49 @@
     justify-content: left;
     gap: 1rem;
 }
+.courseComment_user{
+    display: block;
+    margin-block: 1rem;
+    background-color: var(--white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+:global(.dark) .courseComment_user{
+    background-color: var(--dark-gray);
+}
+.courseComment_userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        padding-bottom: 1rem;
+    border-bottom: 1px solid var(--text-secondary);
+}
+.courseComment_user div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.courseComment_userInfo div span:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 50%;
+}
+.courseComment_userInfo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.courseComment_userInfo_name{
+    display: block;
+    font-family: var(--font-danaBold);
+    font-size: 1rem;
+
+}
+.courseComment_user_response{
+    font-size: 0.9rem;
+    font-weight: 800;
+}

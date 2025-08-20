@@ -49,6 +49,23 @@ function CourseComment() {
             </div>
         </div>
         )}
+            <div className={style.courseComment_user}>
+                <div className={style.courseComment_userInfo}>
+                    <div>
+                    <span>
+                        <img src="/assets/images/user.jpg" alt="user" />
+                    </span>
+                    <div>
+                        <h4 className={style.courseComment_userInfo_name}>user client</h4>
+                        <span>|</span>
+                        <span className={style.courseComment_userInfo_role}>کاربر</span>
+                    </div>
+                    </div>
+                    <button className='btn primary'>پاسخ</button>
+                </div>
+                <p className={style.courseComment_user_response}>مورد اخر اینکه من تا به حال هر چی دوره از سبزلرن دیدم کیفیت صدا خیلی خوب بوده ولی کیفیت صدای این دوره نه ):
+توی ویدئو معرفی مشخص هست که جلوی استاد طاهر خانی میکرفون هست و صداشون توی معرفی دوره خیلی عالی به نظر میرسه اما در چند قسمت ابتدایی که آپلود شده و من مشاهده کردم اینطور نبو</p>
+            </div>
     </section>
   )
 }
