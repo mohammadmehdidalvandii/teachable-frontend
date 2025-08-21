@@ -1,0 +1,30 @@
+.courseTeacher{
+    display: block;
+    width: 100%;
+}
+.courseTeacher_content{
+    display: block;
+    text-align: center;
+}
+.courseTeacher_img{
+    border-radius: 50%;
+}
+.courseTeacher_name{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.courseTeacher_paraph{
+    display: block;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.courseTeacher_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin: 0 auto;
+    text-decoration: none;
+}
