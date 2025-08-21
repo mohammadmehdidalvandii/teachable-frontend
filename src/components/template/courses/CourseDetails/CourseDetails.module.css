@@ -55,19 +55,16 @@
     font-weight: 900;
 }
 
-
-
 .courseDetails_down{
     display: flex;
     gap: 1rem;
 }
 .courseDetails_down_right{
-    flex-basis: 25%;
-    background-color: aqua;
-}
-.courseDetails_down_left{
     flex-basis: 75%;
-    background-color: aquamarine;
+}
+
+.courseDetails_down_left{
+    flex-basis: 25%;
 }
 
 

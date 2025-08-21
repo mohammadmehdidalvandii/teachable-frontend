@@ -1,6 +1,14 @@
 import React from 'react';
 import style from './CourseDetails.module.css';
 import CourseDetailsVideo from '../CourseDetailsVideo/CourseDetailsVideo';
+import CourseDescription from '../CourseDescription/CourseDescription';
+import CourseLesson from '../CourseLesson/CourseLesson';
+import CourseComment from '../CourseComment/CourseComment';
+import CourseInfo from '../CourseInfo/CourseInfo';
+import StudentsRating from '../StudentsRating/StudentsRating';
+import CourseTeacher from '../CourseTeacher/CourseTeacher';
+
+
 
 function CourseDetails() {
   return (
@@ -23,8 +31,26 @@ function CourseDetails() {
                     </div>
                 </div>
                 <div className={style.courseDetails_down}>
-                    <div className={style.courseDetails_down_right}>this is down right</div>
-                    <div className={style.courseDetails_down_left}>this is down left</div>
+                    <div className={style.courseDetails_down_right}>
+                        <CourseInfo/>
+                        <div className="box">
+                            <CourseDescription/>
+                        </div>
+                        <div className="box">
+                            <CourseLesson/>
+                        </div>
+                        <div className="box">
+                            <CourseComment/>
+                        </div>
+                    </div>
+                    <div className={style.courseDetails_down_left}>
+                        <div className="box">
+                            <StudentsRating/>
+                        </div>
+                        <div className="box">
+                            <CourseTeacher/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

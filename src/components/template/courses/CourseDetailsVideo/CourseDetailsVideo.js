@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player'
 function CourseDetailsVideo() {
   return (
     <ReactPlayer 
+    style={{borderRadius:"0.5rem"}}
         url='/assets/video/course.mp4' 
         controls={true} 
         autoPlay
