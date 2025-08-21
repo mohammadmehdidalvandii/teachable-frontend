@@ -1,0 +1,35 @@
+.lessonInfo{
+    display: block;
+    width: 100%;
+}
+.lessonInfo_wrapper{
+    display: block;
+}
+.lessonInfo_title{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.3rem;
+}
+.lessonInfo_nameVideo{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-danaMedium);
+    font-size: 1.1rem;
+}
+.lessonInfo_nameVideo span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5ren;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+.lessonInfo_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
