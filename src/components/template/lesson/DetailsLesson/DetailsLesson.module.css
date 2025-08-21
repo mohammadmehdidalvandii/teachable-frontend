@@ -1,0 +1,35 @@
+.detailsLesson{
+    margin-bottom: 2rem;
+}
+.detailsLesson_wrapper{
+    display: block;
+    width: 100%;
+}
+.detailsLesson_down{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.detailsLesson_right{
+    flex-basis: 75%;
+    background-color: blue;
+}
+.detailsLesson_left{
+    flex-basis: 25%;
+    background-color: red;
+}
+
+
+
+@media (max-width : 992px) {
+    .detailsLesson_down{
+        flex-direction: column;
+    }
+}
+@media (max-width : 768px) {
+}
+@media (max-width : 576px) {
+}
+@media (max-width : 390px){
+}

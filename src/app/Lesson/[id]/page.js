@@ -1,6 +1,7 @@
 import Breadcrumb from '@/components/modules/Breadcrumb/Breadcrumb'
 import Footer from '@/components/modules/Footer/Footer'
 import Navbar from '@/components/modules/Navbar/Navbar'
+import DetailsLesson from '@/components/template/lesson/DetailsLesson/DetailsLesson'
 import React from 'react'
 
 function page() {
@@ -8,6 +9,7 @@ function page() {
     <>
     <Navbar/>
     <Breadcrumb title='ویدیو اموزش جامع وردپرس'/>
+    <DetailsLesson/>
     <Footer/>
     </>
   )
