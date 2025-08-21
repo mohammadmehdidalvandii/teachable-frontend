@@ -1,0 +1,43 @@
+.studentsRating{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;x */
+    gap: 0.2rem ;
+}
+.studentsRating div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+:global(.dark) .studentsRating div{
+    background-color: var(--primary-dark);
+}
+.studentsRating div:first-child span{
+    color: var(--success-color);
+}
+.studentsRating div:last-child span{
+    color: var(--warning-color);
+}
+.studentsRating_icon{
+    font-size: 2rem;
+}
+
+.studentsRating_content{
+    display: block !important
+}
+.studentsRating_content h3{
+    display: block;
+    font-family: var(--font-danaBlack);
+    font-size: 1.1rem;
+
+}
+.studentsRating_content p{
+    display: block !important;
+    margin-top: 0;
+    font-size: 0.9rem;
+
+}
