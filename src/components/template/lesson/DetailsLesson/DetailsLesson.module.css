@@ -13,7 +13,6 @@
 }
 .detailsLesson_right{
     flex-basis: 75%;
-    background-color: blue;
 }
 .detailsLesson_left{
     flex-basis: 25%;
