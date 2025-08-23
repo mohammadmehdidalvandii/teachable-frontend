@@ -1,0 +1,19 @@
+.headlineCourse{
+    display: block;
+    width: 100%;
+    height: 80dvh;
+    overflow-y: scroll;
+}
+.wrapper_headlineCourse{
+    display: block;
+}
+.headlineCourse_title{
+    display: block;
+    font-family: var(--font-danaBold);
+    font-size: 1.5rem;
+}
+.headlineCourse_items{
+    display: block;
+    padding-top: 1rem;
+    border-top: 1px solid var(--text-secondary);
+}

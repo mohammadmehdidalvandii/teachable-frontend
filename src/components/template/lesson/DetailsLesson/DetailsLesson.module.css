@@ -12,11 +12,10 @@
     margin-top: 2rem;
 }
 .detailsLesson_right{
-    flex-basis: 75%;
+    flex-basis: 70%;
 }
 .detailsLesson_left{
-    flex-basis: 25%;
-    background-color: red;
+    flex-basis: 30%;
 }
 
 

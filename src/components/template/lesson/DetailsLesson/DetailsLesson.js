@@ -3,6 +3,7 @@ import style from './DetailsLesson.module.css';
 import LessonVideo from '../LessonVideo/LessonVideo';
 import LessonInfo from '../LessonInfo/LessonInfo';
 import QuestionAnswer from '../QuestionAnswer/QuestionAnswer';
+import HeadlineCourse from '../HeadlineCourse/HeadlineCourse';
 
 function DetailsLesson() {
   return (
@@ -19,7 +20,11 @@ function DetailsLesson() {
                             <QuestionAnswer/>
                         </div>
                     </div>
-                    <div className={style.detailsLesson_left}>left</div>
+                    <div className={style.detailsLesson_left}>
+                        <div className="box">
+                            <HeadlineCourse/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
